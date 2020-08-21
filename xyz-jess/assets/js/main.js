@@ -1,27 +1,25 @@
 $(document).ready(function(){
 
 var word1 = [
-	"Trump",
-	"Clinton",
-	"Rudd",
-	"Scomo",
+	"scattered thoughts",
+	"forgetful brain",
+	"pounding head"
 ];
 
 var randomWord1 = word1[Math.floor(Math.random()*word1.length)];
 
 var word2 = [
-  "yell",
-  "dance",
-  "draw"
+  "help",
+  "think",
+  "be there"
 ];
 
 var randomWord2 = word2[Math.floor(Math.random()*word2.length)];
 
 var word3 = [
-  "red",
-  "blue",
-  "yellow",
-  "pink",
+  "i can't be bothered",
+  "i need to feed the cat",
+  "i'm running late for a nap"
 ];
 
 var randomWord3 = word3[Math.floor(Math.random()*word3.length)];

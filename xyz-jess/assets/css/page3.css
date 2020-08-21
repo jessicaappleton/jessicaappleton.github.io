@@ -1,0 +1,34 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 75px;
+	text-align: center;
+	background:pink;
+}
+
+a {
+	color:black;
+}
+
+
+span {
+	color:white;
+}
+
+.title{
+}
+.mada {
+	font-size:440px;
+	font-weight:bold;
+	padding:30px;
+	background-color:red;
+	color:pink;
+	text-align:center;
+}
+
+.message {
+	color:darkblue;
+	background:purple;
+	padding:250px;
+	text-transform:uppercase;
+	text-align:left;
+}
