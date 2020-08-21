@@ -1,0 +1,45 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 100px;
+	text-align: center;
+	color:lightblue;
+	background-color:darkblue;
+}
+
+a {
+	color:red;
+}
+
+
+
+.crow {
+	text-align:left;
+	color:orange;
+	font-weight:bold;
+	font-family:courier;
+}
+
+.dog {
+	font-size:160px;
+	border-top:10px lightblue;
+}
+
+.question {
+	text-transform:uppercase;
+	text-align:right;
+}
+
+.pink {
+	color:hotpink;
+}
+
+.date {
+	font-size:20px;
+	padding:300px;
+}
+
+.mada {
+	font-size:300px;
+}
+
+
