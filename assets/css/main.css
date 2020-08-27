@@ -16,9 +16,9 @@ a {
 	text-align:center;
 }
 
-.href {
+.a {
 	color:black;
-	font-size:60px;
+	font-size:80px;
 	padding:10px;
 	border:1px solid black;
 	width:33%;
@@ -28,4 +28,5 @@ a {
 .img {
 	border-radius:50px;
 }
+
 
