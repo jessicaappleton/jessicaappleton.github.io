@@ -1,9 +1,23 @@
 body {
 	font-family: Helvetica,Arial,sans-serif;
 	font-size: 32px;
+	background-color:grey;
 }
 
 a {
-	color:red;
+	color:black;
+}
+
+.name {
+	font-size:120px;
+	padding:13px;
+	padding-top:60px;
+	color:lightyellow;
+	text-align:center;
+}
+
+.href {
+	color:black;
+	font-size:60px;
 }
 
