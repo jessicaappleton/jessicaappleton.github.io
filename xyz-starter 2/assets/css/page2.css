@@ -1,0 +1,67 @@
+body {
+	background-color:peachpuff;
+}
+
+.bg {
+	font-family:arial;
+	color:lightblue;
+	text-align:left;
+	font-size:200px;
+}
+
+.fg {
+	font-family:times;
+	color:purple;
+	text-align:right;
+	font-size:100px;
+
+	bottom:0px;
+	left:0px;
+	transform:skew(-50deg);
+	letter-spacing:5px;
+}
+
+.mada {
+	font-family:arial;
+	font-size:140px;
+	color:purple;
+	transform:rotate(180deg);
+	bottom:0px;
+	text-align:right;
+}
+
+.date{
+	font-size:200px;
+	font-family:arial;
+	color:lightblue;
+	text-align:right;
+
+
+}
+
+.message {
+	font-size:6.5vw;
+	color:papayawhip;
+	text-align:center;
+	font:uppercase;
+	transform:skew(20deg);
+	padding-top:20px;
+	padding-bottom:20px;
+	outline:5px solid;
+
+	animation:skew 5s infinite alternate;
+}
+
+@keyframes skew {
+	0% {
+		transform:skew(0deg);
+	}
+	50% {
+		transform:skew(20deg);
+	}
+	100% {
+		transform:skew(50deg);
+	}
+}
+
+

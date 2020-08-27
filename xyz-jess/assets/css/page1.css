@@ -1,0 +1,68 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 60px;
+	text-align: center;
+	background:blue;
+}
+
+
+
+
+span {
+	color:blue;
+}
+
+.box {
+	font-size:20px;
+	background-color:violet;
+	color:blue; 
+	text-align:left;
+	padding:1%;
+	width:100vw;
+	font-family:courier new,monospace;
+}
+
+.date {
+	font-size:130px;
+	color:darkblue;
+	font-weight:lighter;
+	text-align:right;
+	font-family:"Lucinda Console", serif, monospace;
+}
+
+.box2 {
+	text-align:left;
+	padding:1%;
+	width:100vw;
+	color:blue;
+	background-color:violet;
+	font-family:courier new,monospace;
+	font-size:20px;
+}
+
+.mada {
+	font-size:200px;
+	color:violet;
+	font-weight:bold;
+	text-align:right;
+}
+
+.message {
+	background-color:darkblue;
+	padding:20px;
+	font-family:Times,sans-serif;
+	text-align:left;
+	font-size:150px;
+	color:fuchsia;
+
+}
+
+.box3 {
+	font-size:20px;
+	text-align:left;
+	padding:1%;
+	width:100vw;
+	color:blue;
+	background-color:violet;
+	font-family:courier new,monospace;
+

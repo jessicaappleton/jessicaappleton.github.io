@@ -1,11 +1,11 @@
 body {
 	font-family: Helvetica,Arial,sans-serif;
 	font-size: 32px;
-	background-color:grey;
+	background-color:wheat;
 }
 
 a {
-	color:black;
+	color:white;
 }
 
 .name {
@@ -19,5 +19,13 @@ a {
 .href {
 	color:black;
 	font-size:60px;
+	padding:10px;
+	border:1px solid black;
+	width:33%;
+	display:inline-block;
+}
+
+.img {
+	border-radius:50px;
 }
 

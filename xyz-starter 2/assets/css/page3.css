@@ -1,0 +1,76 @@
+body {
+	background-color:linen;
+}
+
+
+.bg {
+	font-family:lucida console,monospace;
+	font-size:200px;
+	font-weight:bold;
+	color:tomato;
+	text-transform:uppercase;
+	text-align:center;
+
+}
+.fg {
+	font-family:arial;
+	font-size:70px;
+	color:purple; 
+	text-align:center;
+	
+	position:fixed;
+	top:20px;
+	left:0px;
+}
+
+.fg2 {
+	font-family:arial;
+	font-size:70px;
+	color:purple;
+	text-align:center;
+	
+	position:fixed;
+	bottom:200px;
+	right:0px;
+}
+
+.message {
+	font-size:20px;
+	font-family:georgia,serif;
+	color:hotpink;
+	position:fixed;
+	top:390px;
+	right:200px;
+	animation:rotate 15s infinite alternate;
+}
+
+@keyframes rotate {
+	0% {
+		transform:rotate(0deg);
+	}
+	100% {
+		transform:rotate(360deg);
+	}
+}
+
+.date {
+	font-size:200px;
+	font-family:verdana;
+	color:darkorange;
+	background-color:orange;
+	width:920px;
+	animation:fade 4s infinite alternate;
+}
+
+@keyframes fade {
+	0% {
+		color:darkorange;
+	}
+	100% {
+		color:lemonchiffon;
+	}
+}
+
+
+
+

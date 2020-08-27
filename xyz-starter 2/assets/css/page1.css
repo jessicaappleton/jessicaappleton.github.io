@@ -1,0 +1,109 @@
+body {
+	background-color:darkcyan;
+}
+
+span {
+	color:aquamarine;
+}
+
+
+
+.col {
+	font-family:courier new,monospace;
+	border:1px solid black;
+	display:inline-block;
+	color:black;
+	background-color:darkcyan;
+	font-size:50px;
+	text-align:center;
+	width:33%;
+	text-transform:uppercase;
+}
+
+.col2 {
+	font-family:courier new,monospace;
+	border:1px solid black;
+	display:inline-block;
+	color:black;
+	background-color:darkcyan;
+	font-size:50px;
+	text-align:center;
+	width:33%;
+	text-transform:uppercase;
+}
+
+
+.part1 {
+	font-size:15px;
+	padding:8.5%;
+	font-family:verdana,sans-serif;
+	color:darkcyan;
+	background-color:aquamarine;
+}
+
+
+.col7 {
+	font-family:courier new,monospace;
+	border:1px solid black;
+	display:inline-block;
+	color:black;
+	background-color:darkcyan;
+	font-size:50px;
+	text-align:center;
+	width:33%;
+	background:darkcyan;
+	text-transform:uppercase;
+}
+
+.col8 {
+	font-family:courier new,monospace;
+	border:1px solid black;
+	display:inline-block;
+	color:black;
+	background-color:darkcyan;
+	font-size:50px;
+	text-align:center;
+	width:33%;
+	text-transform:uppercase;
+}
+
+.part2 {
+	font-size:15px;
+	padding:8%;
+	font-family:verdana,sans-serif;
+	color:darkcyan;
+	background-color:darkcyan;
+}
+
+.col9 {
+	font-family:courier new,monospace;
+	border:1px solid black;
+	display:inline-block;
+	color:black;
+	background-color:darkcyan;
+	font-size:50px;
+	text-align:center;
+	width:33%;
+	text-transform:uppercase;
+}
+
+.col10 {
+	font-family:courier new,monospace;
+	border:1px solid black;
+	display:inline-block;
+	color:black;
+	background-color:darkcyan;
+	font-size:50px;
+	text-align:center;
+	width:33%;
+	text-transform:uppercase;
+}
+
+
+
+
+
+
+
+
+ 

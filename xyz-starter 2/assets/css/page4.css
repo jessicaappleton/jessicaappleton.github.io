@@ -1,0 +1,62 @@
+body {
+	background-color:lightgreen;
+}
+
+.mada {
+	font-size:25vw;
+	text-align:center;
+	color:palevioletred;
+
+}
+
+.title {
+	font-size:2vw;
+	color:white;
+	text-align:center;
+	transform:skew(20deg);
+	letter-spacing:5px;
+}
+
+
+
+.message {
+	font-family:verdana,sans-serif;
+
+	animation:forward 10s infinite alternate;
+}
+
+@keyframes forward {
+	0% {
+		margin-left:0px;
+	}
+	50% {
+		margin-left:740px;
+	}
+	100%{
+		margin-left:0px;
+	}
+}
+
+.title2 {
+	font-size:2vw;
+	color:white;
+	text-align:center;
+	transform:skew(-20deg);
+	letter-spacing:5px;
+}
+
+.date {
+	font-size:25vw;
+	text-align:center;
+	
+	animation:flash 2s infinite;
+}
+
+@keyframes flash {
+	0% {
+		color:lightgreen;
+	}
+	100% {
+		color:seagreen;
+	}
+}

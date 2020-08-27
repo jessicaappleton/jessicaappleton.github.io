@@ -1,0 +1,56 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 60px;
+	text-align: center;
+	background:lightyellow;
+	padding-top:5%;
+}
+
+a {
+	color:red;
+}
+
+
+span {
+	color:pink;
+}
+
+.date {
+	font-size:20px;
+	color:darkorange;
+	text-align:left;
+	padding-left:40%;
+}
+
+.mada {
+	font-size:190px;
+	font-weight:bold;
+	text-align:center;
+}
+
+
+.title {
+	font-size:30px;
+	color:darkorange;
+	padding:20px;
+}
+
+.box{
+	width:1000px;
+	height:100px;
+	background-color:peachpuff;
+	padding:20px;
+	color:lightyellow;
+	font-family:Courier New,monospace;
+}
+
+.message {
+	padding:100px;
+	font-size:45px;
+	font-family:Lucida Console,monospace;
+	text-align:right;
+
+	
+}
+
+
