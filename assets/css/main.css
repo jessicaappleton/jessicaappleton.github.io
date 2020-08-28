@@ -1,32 +1,27 @@
 body {
-	font-family: Helvetica,Arial,sans-serif;
-	font-size: 32px;
 	background-color:wheat;
 }
 
-a {
-	color:white;
+
+.square {
+	font-size:12.5vw;
+	padding:2vw;
+	font-family:helvetica,arial,sans-serif;
+	color:wheat;
+	text-align:center;
+	background-color:lightyellow;
+	
 }
 
-.name {
-	font-size:120px;
-	padding:13px;
-	padding-top:60px;
-	color:lightyellow;
+.link {
+	font-family:helvetica,arial,sans-serif;
+	font-size:4vw;
+
+	border:0.1vw solid black;
+	display:inline-block;
+	width:33%;
 	text-align:center;
 }
 
-.a {
-	color:black;
-	font-size:80px;
-	padding:10px;
-	border:1px solid black;
-	width:33%;
-	display:inline-block;
-}
-
-.img {
-	border-radius:50px;
-}
 
 
