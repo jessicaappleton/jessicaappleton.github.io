@@ -35,20 +35,29 @@ a:hover{
 }
 
 .hero {
-	width:600px;
-	margin:auto;
+	display:inline-block;
+	vertical-align:top;
+	height:86vh;
+	width:50%;
+	overflow:scroll;
 }
 
 .hero img{
 	width:100%;
 }
 
+
+
 .circle {
-	font-size:4vw;
-	width: 100px;
-    height: 100px;
-    background:lightyellow;
-    border-radius: 50%
+	font-family:helvetica,arial,sans-serif;
+	font-size:2vw;
+	width: 200px;
+    height: 80px;
+    border:0.4vw solid lightyellow;
+    display:block;
+    margin:auto;
+    text-align:center;
+    padding:1.5vw;
 }
 
 
