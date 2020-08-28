@@ -38,15 +38,13 @@ a:hover{
 	display:inline-block;
 	vertical-align:top;
 	height:86vh;
-	width:50%;
+	width:33%;
 	overflow:scroll;
 }
 
 .hero img{
 	width:100%;
 }
-
-
 
 .circle {
 	font-family:helvetica,arial,sans-serif;
