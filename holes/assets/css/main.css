@@ -9,7 +9,7 @@
 
 .title {
 	margin-top:10vh;
-	padding:1vh;
+	padding:1vh; 
 	color:black;
 	font-size:29vw;
 	font-family:helvetica;
@@ -67,8 +67,8 @@
 	top:0px;
 	overflow-x:hidden;
 	padding-top:60px;
-	transition:0.5s;*/
-}
+	transition:0.5s;
+}*/
 
 .btn {
 	border:1px solid black;
