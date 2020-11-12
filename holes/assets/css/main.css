@@ -1,0 +1,268 @@
+ body {
+	font-size: 21px;
+	font-family: arial;
+	background-color: white;
+  	cursor: url(largedot.png), auto;
+}
+
+/* image css */
+
+.title {
+	margin-top:10vh;
+	padding:1vh;
+	color:black;
+	font-size:29vw;
+	font-family:helvetica;
+	transition:0.5s;
+	border:1px solid black;
+}
+
+.title:hover {
+	transform: scale(0.1);
+	transition:10s;
+	}
+
+
+.subtitle {
+	color:#e92d56;
+	font-size:3vh;
+	font-family:helvetica;
+	padding:1vh;
+	margin-left:20vh;
+}
+
+.subtitle:hover {
+	color:wheat;
+}
+
+
+.nav {
+	/*position: fixed;
+	top: -400px;*/
+	display:flex;
+	flex-wrap:wrap;
+	width:100%;
+	background-color:white;
+	justify-content:flex-start;
+	padding-left:5px;
+	padding-top:5px;
+	padding-bottom:5px;
+	transition:0.5s;
+	flex-direction:column;
+
+	/*padding:20px;
+	margin-right:-50%;
+	top:2vh;
+	left:0px;
+	flex-direction:row;
+	font-size:5vh;
+	font-family:helvetica;*/
+}
+
+/*.navslide {
+	height:100%;
+	width:0px;
+	position:fixed;
+	z-index:1;
+	top:0px;
+	overflow-x:hidden;
+	padding-top:60px;
+	transition:0.5s;*/
+}
+
+.btn {
+	border:1px solid black;
+	padding:10px;
+	border-radius: 0.1px;
+	color:black;
+	text-align:center;
+}
+
+.btn:hover {
+	background-color:black;
+	color:white;
+}
+
+.container {
+	display:flex;
+	flex-wrap:wrap;
+	margin:center;
+}
+
+.item {
+	width:25%;
+	padding:10vh;
+	color:white;
+	text-align:center;
+}
+
+.item:hover {
+	padding:1vh;
+	background-color:black;
+	border-radius:1px;
+	overflow:hidden;
+	cursor: url(dot.png), auto;
+	color:#e92d56;
+	font:helvetica;
+}
+
+/*.item:hover img{
+}*/
+
+.active {
+	border:8px solid black;
+}
+
+/*try adding some specific widths such as .item.small or .item.large  */
+
+.item.small {
+	width:16.66%;
+}
+
+.item.medium {
+	width:25%;
+}
+
+.item.large {
+	width:66%;
+}
+
+.item.hide {
+	display:none;
+}
+
+
+.item img {
+	width: 100%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.end {
+	color:#e92d56;
+	font-size:3vh;
+	font-family:verdana;
+	padding:1vh;
+	margin-left:60vh;
+}
+
+.end:hover {
+	color:wheat;
+}
+
+.footer {
+	color:black;
+	font-size:2vh;
+	padding:4vh;
+	font-family:arial;
+}
+
+/*Add .item .hide */
+
+
+/*iphone*/
+@media (max-width:800px){
+	body {
+		background-color:black;
+	}
+
+.title {
+	background-color:black;
+	color:#e92d56; 
+	font-size:19vh;
+}
+
+.subtitle {
+	color:black;
+	font-size:3vh;
+	font-family:verdana;
+	padding:2vh;
+}
+
+.subtitle:hover {
+	color:white;
+}
+
+.col1 {
+	/*color:white;
+	flex-direction:column;
+	margin-right:100%;
+	font-family:verdana;*/
+
+	width:30%;
+	height:100vh;
+	padding-top:5px;
+	padding-right:5px;
+	padding-left:5px;
+	border-right:1px black solid;
+	overflow:scroll;
+}
+
+.btn {
+	color:white;
+	font-size:3vh;
+	border:0.4px solid white;
+}
+
+.btn:hover {
+	background-color:white;
+	color:black;
+}
+
+.img {
+	filter:grayscale(100);
+	width:90%;
+}
+
+.item {
+	width:90%;
+	margin-bottom:15px;
+	padding:0px;
+	color:black;
+}
+
+.item img {
+	width:90%;
+}
+
+.item:hover {
+	background-color:black;
+	border-radius: 1px;
+	cursor:pointer;
+	color:#e92d56;
+	font:arial;
+}
+
+.active {
+	border:1px solid white;
+}
+
+.end {
+	color:black;
+	font-size:2vh;
+	font-family:verdana;
+	padding:1vh;
+	margin-left:10vh;
+}
+
+.end:hover {
+	color:#e92d56;
+}
+
+.footer {
+	color:black;
+	font-size:10px;
+	padding:1vh;
+	font-family:arial;
+}
+
+/*ipad/small laptop*//**/
+/*only doing iphone for this project. must go in order so largest to smallest*/
+/*@media (max-width:1020px){
+	body {
+		background-color:cyan;
+	}
+}*/
+
+
