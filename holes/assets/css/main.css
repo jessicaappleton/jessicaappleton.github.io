@@ -48,7 +48,7 @@
 	padding-top:5px;
 	padding-bottom:5px;
 	transition:0.5s;
-	flex-direction:column;
+	flex-direction:row;
 
 	/*padding:20px;
 	margin-right:-50%;
@@ -59,7 +59,7 @@
 	font-family:helvetica;*/
 }
 
-/*.navslide {
+.navslide {
 	height:100%;
 	width:0px;
 	position:fixed;
@@ -68,7 +68,7 @@
 	overflow-x:hidden;
 	padding-top:60px;
 	transition:0.5s;
-}*/
+}
 
 .btn {
 	border:1px solid black;
