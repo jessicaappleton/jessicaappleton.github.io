@@ -8,7 +8,7 @@
 /* image css */
 
 .title {
-	margin-top:10vh;
+	margin-top:3vh;
 	padding:1vh; 
 	color:black;
 	font-size:29vw;
@@ -24,15 +24,23 @@
 
 
 .subtitle {
-	color:#e92d56;
-	font-size:3vh;
+	color:black;
+	font-size:21px;
 	font-family:helvetica;
-	padding:1vh;
-	margin-left:20vh;
+	position:absolute;
+	right:8px;
+	top:2vw;
+
+
+	/*border:1px solid black;
+	border-radius: 0.1px;*/
+	padding:10px;
+	width:21vw;
+
 }
 
 .subtitle:hover {
-	color:wheat;
+	color:#e92d56;
 }
 
 
@@ -44,8 +52,8 @@
 	width:100%;
 	background-color:white;
 	justify-content:flex-start;
-	padding-left:5px;
-	padding-top:5px;
+	padding-left:15px;
+	padding-top:2vw;
 	padding-bottom:5px;
 	transition:0.5s;
 	flex-direction:row;
@@ -171,6 +179,7 @@
 	background-color:black;
 	color:#e92d56; 
 	font-size:19vh;
+	size:100vw;
 }
 
 .subtitle {
@@ -197,6 +206,14 @@
 	padding-left:5px;
 	border-right:1px black solid;
 	overflow:scroll;
+}
+
+.nav {
+	background-color:black;
+	flex-direction:column;
+	width:10px;
+	z-index:2;
+	position:fixed;
 }
 
 .btn {
@@ -251,8 +268,8 @@
 }
 
 .footer {
-	color:black;
-	font-size:10px;
+	color:white;
+	font-size:15px;
 	padding:1vh;
 	font-family:arial;
 }
