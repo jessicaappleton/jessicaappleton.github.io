@@ -26,12 +26,12 @@ a:hover{
 	font-family:helvetica,arial,sans-serif;
 	font-size:4vw;
 
-	border:0.1vw solid lightyellow;
+	border:0.4vw solid lightyellow;
 	display:inline-block;
 	width:33%;
 	text-align:center;
-	padding:0.3vw;
-	margin:55vh;
+	padding:0.5vw;
+	margin-left:18vh;
 }
 
 .link {
@@ -60,14 +60,15 @@ a:hover{
 
 .circle {
 	font-family:helvetica,arial,sans-serif;
-	font-size:2vw;
-	width: 200px;
-    height: 80px;
+	font-size:4vw;
+	width:33%;
+/*	width: 200px;
+    height: 70px;*/
     border:0.4vw solid lightyellow;
-    display:block;
-    margin:auto;
+    display:inline-block;
+    margin-left:18vh;
     text-align:center;
-    padding:1.5vw;
+    padding:0.5vw;
 }
 
 
