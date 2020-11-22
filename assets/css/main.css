@@ -20,7 +20,18 @@ a:hover{
 	color:wheat;
 	text-align:center;
 	background-color:lightyellow;
-	
+}
+
+.dpub {
+	font-family:helvetica,arial,sans-serif;
+	font-size:4vw;
+
+	border:0.1vw solid lightyellow;
+	display:inline-block;
+	width:33%;
+	text-align:center;
+	padding:0.3vw;
+	margin:55vh;
 }
 
 .link {
@@ -32,6 +43,7 @@ a:hover{
 	width:33%;
 	text-align:center;
 	padding:0.3vw;
+	margin-left:18vh;
 }
 
 .hero {
