@@ -101,7 +101,7 @@ h3 {
 	font-size:5vw;
 	position:fixed;
 	width:;
-	top:8vw;
+	top:22vw;
 	margin-left:auto;
 	margin-right:auto;
 	left:3vw;
@@ -124,7 +124,7 @@ h3 {
 	padding:1vh;
 	position:fixed;
 	top:2vw;
-	left:91.2vw;
+	left:75.3vw;
 }
 
 .headers{
@@ -321,6 +321,8 @@ h3 {
 	font-weight:lighter;
 	margin-left:3vw;
 	margin-right:3vw;
+	padding-top:3vw;
+	padding-bottom:5vw;
 }
 
 .theindent {
@@ -364,12 +366,24 @@ h3 {
 	width:100%;
 }
 
-.foottext {
-	font-size:1vw;
-	font-family:helvetica;
+.thegrid {
+	display:flex;
+	flex-wrap:wrap;
 	width:20%;
-	text-align:center;
-	padding:2vw;
+	position:fixed;
+	top:53vw;
+	left:3vw;
+	font-family:helvetica;
+	border:0.1vw solid white;
+	border-radius:0.5vw;
+}
+
+
+.foottext {
+	font-size:3vh;
+	font-family:helvetica;
+	width:50%;
+	padding:1vh;
 }
 
 
