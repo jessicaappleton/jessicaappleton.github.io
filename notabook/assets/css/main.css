@@ -154,10 +154,6 @@ h3 {
 	width:40vw;
 }
 
-.header1:hover {
-	color:white;
-}
-
 
 .header2 {
 	color:black;
@@ -173,9 +169,6 @@ h3 {
 	width:40vw;
 }
 
-.header2:hover {
-	color:white;
-}
 
 .header3 {
 	color:black;
@@ -191,9 +184,6 @@ h3 {
 	width:40vw;
 }
 
-.header3:hover {
-	color:white;
-}
 
 .header4 {
 	color:black;
@@ -209,10 +199,6 @@ h3 {
 	width:40vw;
 }
 
-.header4:hover {
-	color:white;
-}
-
 
 .text1 {
 	position:fixed;
@@ -223,22 +209,14 @@ h3 {
 /*	color:black;*/
 }
 
-/*.text1:hover {
-	color:white;
-}*/
-
 .text2 {
 	position:fixed;
 	top:27vw;
 	left:60vw;
 	width:30vw;
 	line-height:1.8vw;
-/*	color:black;*/
 }
 
-/*.text2:hover {
-	color:white;
-}*/
 
 .text3 {
 	position:fixed;
@@ -246,12 +224,7 @@ h3 {
 	left:6vw;
 	width:30vw;
 	line-height:1.8vw;
-/*	color:black;*/
 }
-
-/*.text3:hover {
-	color:white;
-}*/
 
 .text4 {
 	position:fixed;
@@ -261,13 +234,20 @@ h3 {
 	line-height:1.8vw;
 }
 
-/*.text4:hover {
-	color:white;
-}*/
+
+/*STARTING PAGES*/
+
+.intro {
+	font-size:25px;
+	font-family:helvetica;
+	margin-right:8vw;
+	margin-left:8vw;
+	text-align:center;
+	padding-bottom:3vw;
+}
 
 .image {
-	height:100vh;
-	width:50%;
+	width:58%;
 	margin:auto;
 }
 
@@ -275,7 +255,49 @@ h3 {
 	width:100%;
 }
 
+.heading {
+	font-size:10vh;
+	font-family:Lucida Console;
+	font-weight:bold;
+	letter-spacing:1px;
+	margin-left:3vw;
+}
 
+.intro {
+	margin:auto;
+	width:50%;
+}
+
+.subintro {
+	font-size:25px;
+	margin:auto;
+	width:50%;
+	display:box;
+	font-weight:lighter;
+	font-family:helvetica;
+}
+
+.w1of2 {
+	margin-right:6vw;
+	width:70%;
+
+}
+
+
+/*p.noindent {
+	text-indent:3vw;
+	font-weight:bold;
+	font-family:helvetica;
+	letter-spacing:2px;
+}*/
+
+.quote {
+	width:60%;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	font-size:50px;
+}
 
 .footnote p {
 	font-size:18px;
@@ -284,35 +306,23 @@ h3 {
 	margin-top:20px;
 	width:50%;
 	font-family:arial;
+	margin-left:3vw;
 }
 
-.text {
-	text-indent:200px;
-}
-
-p.noindent {
-	text-indent:3vw;
-	font-weight:bold;
-	font-family:helvetica;
-	letter-spacing:2px;
-}
-
-.container {
+.grid {
 	display:flex;
 	flex-wrap:wrap;
-	margin-top:200px;
+	width:100%;
 }
 
-.w1of2 {
-	width:50%;
-}
-
-.quote {
-	width:60%;
-	margin-left:auto;
-	margin-right:auto;
+.foottext {
+	font-size:1vw;
+	font-family:helvetica;
+	width:20%;
 	text-align:center;
+	padding:2vw;
 }
+
 
 
 
