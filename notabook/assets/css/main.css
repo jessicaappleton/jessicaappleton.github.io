@@ -5,28 +5,38 @@ body {
 
 
 h1 {
-	font-size:8vw;
+	font-size:12vw;
 	text-align:left;
-	margin-top:5vw;
+	margin-top:7vw;
 	margin-left:3vw;
+	margin-right:3vw;
 	font-family: bodega-sans, sans-serif;
+	letter-spacing:5px;
+	line-height:160px;
 }
 
-/*.page1 h1 {
-	color:lightblue; 
-}*/
+.page1 h1 {
+	letter-spacing:0px; 
+}
 
 h2 {
 	font-family: Helvetica;
 	font-size:3vw;
 	text-align:right;
 	right:10px;
+	font-weight:lighter;
+	margin-right:3vw;
+	padding-bottom:5px;
 }
 
 h3 {
-	font-size:20px;
-	line-height:62px;
 	font-family:sans-serif;
+	font-size:10vh;
+	line-height:62px;
+	text-align:right;
+	margin-right:3vw;
+	font-weight:bold;
+	padding-bottom:10vh;
 }
 
 
@@ -253,6 +263,40 @@ h3 {
 /*.text4:hover {
 	color:white;
 }*/
+
+.footnote p {
+	font-size:18px;
+	line-height:20px;
+	color:grey;
+	margin-top:20px;
+	width:50%;
+	font-family:arial;
+}
+
+.text {
+	text-indent:200px;
+}
+
+p.noindent {
+	text-indent:0px;
+}
+
+.container {
+	display:flex;
+	flex-wrap:wrap;
+	margin-top:200px;
+}
+
+.w1of2 {
+	width:50%;
+}
+
+.quote {
+	width:60%;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
 
 
 
