@@ -5,18 +5,22 @@ body {
 
 
 h1 {
-	font-size:2vw;
+	font-size:8vw;
 	text-align:left;
 	margin-top:5vw;
-	font-family: helvetica;
+	margin-left:3vw;
+	font-family: bodega-sans, sans-serif;
 }
-.page1 h1 {
+
+/*.page1 h1 {
 	color:lightblue; 
-}
+}*/
 
 h2 {
 	font-family: Helvetica;
-	font-size:2vw;
+	font-size:3vw;
+	text-align:right;
+	right:10px;
 }
 
 h3 {
