@@ -278,7 +278,10 @@ h3 {
 }
 
 p.noindent {
-	text-indent:0px;
+	text-indent:3vw;
+	font-weight:bold;
+	font-family:helvetica;
+	letter-spacing:2px;
 }
 
 .container {
