@@ -323,6 +323,14 @@ h3 {
 	margin-right:3vw;
 }
 
+.theindent {
+	font-size:18px;
+	font-family:courier new;
+	text-indent:5vw;
+	margin-left:29vw;
+	padding:1vw
+}
+
 
 /*p.noindent {
 	text-indent:3vw;
@@ -340,7 +348,7 @@ h3 {
 	padding:4vw;
 }
 
-.footnote p {
+.footnote {
 	font-size:18px;
 	line-height:20px;
 	color:grey;
